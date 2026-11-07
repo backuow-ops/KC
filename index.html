@@ -538,7 +538,7 @@ drive(her,hs,hh,dt,pd>lim?9:3);
 if(hu.speed>.02){her.position.x+=Math.sin(hu.heading)*hu.speed*dt;her.position.z+=Math.cos(hu.heading)*hu.speed*dt}}}
 anim(me,dt,t);anim(her,dt,t);
 // zone label + shayari
-var zz=zn(me.position.z);if(zz!==zone){zone=zz;$('top').innerHTML=zz<0?'<small>Hemant ki taraf se</small><b>KC\u2019s Museum</b>':(RN[zz]?'<small>KC\u2019s Museum</small><b>'+RN[zz]+'</b>':'<b>KC\u2019s Museum</b>');
+var zz=zn(me.position.z);if(zz!==zone){zone=zz;$('top').innerHTML=zz<0?'<small>Devi Ji ke liye taufa</small><b>KC\u2019s Museum</b>':(RN[zz]?'<small>KC\u2019s Museum</small><b>'+RN[zz]+'</b>':'<b>KC\u2019s Museum</b>');
 plights.forEach(function(L,i){L.intensity=Math.abs(i-zz)<=1||zz<0&&i===0?1:0})}
 var near=null;anchors.forEach(function(q){if(Math.hypot(me.position.x-q.x,me.position.z-q.z)<2.3)near=q});
 if(near!==shown){shown=near;var c=$('card');if(near){var h2=c.querySelector('h2');h2.textContent=near.t;h2.style.display=near.t?'':'none';c.querySelector('p').textContent=near.s;c.classList.add('on')}else c.classList.remove('on')}
