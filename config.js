@@ -32,7 +32,7 @@ window.MUSEUM_CONFIG = {
   githubRepo: '',     // custom domain ho to 'username/repo' likho
 
   // ---------- OPTIONAL TEXT (khali = kuch nahi dikhega) ----------
-  subtitle: 'Hemant ki taraf se, yaadon ka ek ghar',   // pehli screen ke neeche ki line
+  subtitle: 'Just 8 weeks to go 🥳 🥳 🥳',   // pehli screen ke neeche ki line
   rooms: [],          // 6 kamron ke naam, e.g. ['Room 1','Room 2',...]. Khali = koi naam nahi
 
   // ---------- BACKGROUND MUSIC (kitne bhi gaane) ----------
